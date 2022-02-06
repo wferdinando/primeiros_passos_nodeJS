@@ -1,0 +1,29 @@
+POST  http://localhost:4002/products
+content-type: application/json
+
+{
+    "name": "Borracha",
+    "price": 2.50
+}
+
+###
+
+GET http://localhost:4002/products
+
+###
+
+GET http://localhost:4002/products/fc3a3000-6118-46a0-a468-51b9789348b1
+
+###
+
+PUT  http://localhost:4002/products/717b4175-2799-46d8-bf2d-14006338e7ff
+content-type: application/json
+
+{
+    "name": "Caderno 96 Folhas Branco",
+    "price": 12.00
+}
+
+###
+
+DELETE  http://localhost:4002/products/3f3b3be0-d3b7-465f-be15-c685b2c12e36
